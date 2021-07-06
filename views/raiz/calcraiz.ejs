@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raiz e Potência</title>
+</head>
+<body>
+    <script>
+    function result(){
+    	x = document.getElementById("a").value
+        document.getElementById("resultado").innerHTML = Math.sqrt(x);
+    }
+    </script>
+    <h2>Cálculo de Raiz</h2>
+        <p>Raiz quadrada de:</p><br>
+        <input type="float" id="a" name="a" value="a"><br>
+        <button onClick="result()">Confirmar</button>
+
+    <h3>Resultado: <b id="resultado"></b></h3>
+    
+        
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raiz e Potência</title>
+</head>
+<body>
+    <script>
+    function result(){
+    	x = document.getElementById("a").value
+    	y = document.getElementById("b").value
+        document.getElementById("resultado").innerHTML = Math.pow(x, y);
+    }
+    </script>
+    <h2>Cálculo de Potência</h2>
+        <p>Potência de:</p><br>
+        <input type="float" id="a" name="a" value="a"><br>
+        <p>Elevado a:</p><br>
+        <input type="float" id="b" name="b" value="b"><br><br>
+        <button onClick="result()">Confirmar</button>
+
+    <h3>Resultado: <b id="resultado"></b></h3>
+    
+        
+</body>
+</html>
